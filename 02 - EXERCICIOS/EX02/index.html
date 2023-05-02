@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>serratec.com - Absolutamente tudo sobre tecnologia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://serratec.org/residencia/assets/images/favicon-128x128.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="row justify-flex-center align-items-start header" id="header">
+            <div class="col menu-principal">
+                <div class="menu">
+                    <p>Menu</p>
+                </div>
+                <div class="assine">
+                    <p>Assine</p>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <img class="imagem" src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+                <div class="search">
+                    <form class="d-flex search" role="search">
+                        <input class="form-control search" type="search" placeholder="Encontre no Serratec.com"
+                            aria-label="Search">
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid d-flex justify-content-between align-items-center botoes-topo">
+                <div class="col" id="primeiro-item">
+                    <a href="Home" target="_blank" rel="noopener noreferrer">Home</a>
+                </div>
+                <div class="col" id="segundo-item">
+                    <a href="Portugol" target="_blank" rel="noopener noreferrer">Portugol</a>
+                </div>
+                <div class="col banco-dados" id="terceiro-item">
+                    <a href="Banco" target="_blank" rel="noopener noreferrer">Banco de Dados</a>
+                </div>
+                <div class="col" id="quarto-item">
+                    <a href="Poo" target="_blank" rel="noopener noreferrer">POO</a>
+                </div>
+                <div class="col" id="quinto-item">
+                    <a href="Front" target="_blank" rel="noopener noreferrer">Front-end</a>
+                </div>
+                <div class="col" id="sexto-item">
+                    <a href="API" target="_blank" rel="noopener noreferrer">API</a>
+                </div>
+                <div class="col" id="setimo-item">
+                    <a href="DevWeb" target="_blank" rel="noopener noreferrer">WEB</a>
+                </div>
+                <div class="col" id="oitavo-item">
+                    <a href="Mobile" target="_blank" rel="noopener noreferrer">Mobile</a>
+                </div>
+                <div class="col" id="nono-item">
+                    <a href="Projeto" target="_blank" rel="noopener noreferrer">Projeto Aplicado</a>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid bloco-principal">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="row justify-content-between align-items-start ">
+                        <div class="col-6 bloco-noticia-principal">
+                            <h1 class="noticia-principal">Aluno surta com matéria de Front-End Essencial</h1>
+                            <ul>
+                                <li class="noticia-bullets"> POO: Alunos seguem desorientados</li>
+                                <li class="noticia-bullets"> Pesquisa aponta perda de cabelos em residentes</li>
+                                <li class="noticia-bullets"> Consumo de café aumenta em 77%</li>
+                            </ul>
+                        </div>
+                        <div class="col coluna-principal">
+                            <div class="primeira-coluna">
+                                <div class="primeira front-end">
+                                    <img src="https://img.freepik.com/fotos-gratis/codificacao-de-programa-de-computador-na-tela_53876-138060.jpg?w=1060&t=st=1683047337~exp=1683047937~hmac=679c68e04cdbc97f700666ab32376bf7495d67547ff94795c91e3ff2cdb9342e"
+                                        alt="Imagem programador">
+                                    <h5>Front-end vs Back-end: Por que o Back é melhor?</h5>
+
+                                </div>
+                                <div class="primeira poo">
+                                    <img src="https://img.freepik.com/fotos-gratis/homem-de-oculos-aluno-na-aula-de-ciencia-da-computacao-a-pessoa-usa-um-computador_1157-42314.jpg?w=1380&t=st=1683047763~exp=1683048363~hmac=490eb9448bb3a61fdf3fa414fc804b4750e16ccf0c6a0ecc014f887d12d37d3c"
+                                        alt="Imagem de programador surtando">
+                                    <h5>Notas de POO são divulgadas</h5>
+                                </div>
+                                <div class="primeira poo">
+                                    <img src="https://contentstatic.techgig.com/photo/93158297/Oracle-to-discontinue-extended-support-for-Java-7.jpg"
+                                        alt="Icone de Java">
+                                    <h5>Java: Saiba mais sobre essa linguagem maravilhosa</h5>
+                                </div>
+                            </div>
+                            <div class="col segunda-coluna">
+                                <div class="segunda front-end">
+                                    <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/686791/retina_1708x683_0811-Eight_CSS_Tips_for_Advanced_Layouts_and_Effects_Dan_Newsletter___blog-caee7061d7279f9b5e3d8ab0db5e3622.png"
+                                        alt="Imagem CSS">
+                                    <h5>CSS: Custa Só Sua vida</h5>
+                                </div>
+                                <div class="segunda portugol">
+                                    <img src="data:image/png;base64,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"
+                                        alt="Logo Portugol">
+                                        <h5>Portugol: nova atualização</h5>
+                                </div>
+                                <div  class="segunda api">
+                                    <img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/05/criando-api-restful-jax-rs-api.png" alt="API">
+                                    <h5>API: O terror se aproxima</h5>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

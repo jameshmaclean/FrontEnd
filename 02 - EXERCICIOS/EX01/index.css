@@ -1,0 +1,189 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(5, 187, 253),
+    rgb(141, 58, 218)
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.principal {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.barra-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(222, 222, 222);
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  padding-top: 0px;
+}
+.bolinha-vermelha {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(235, 64, 108);
+  border-radius: 100%;
+  padding: 1px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.bolinha-amarela {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(253, 202, 77);
+  border-radius: 100%;
+  padding: 1px;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.bolinha-verde {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(1, 162, 141);
+  border-radius: 100%;
+  padding: 1px;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(222, 222, 222);
+}
+.menu-header {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin: 5px solid white;
+}
+.primeiro {
+  margin: 5px;
+  flex: 1;
+  border-radius: 5px;
+}
+.segundo {
+  width: 100%;
+  margin: 5px;
+  flex: 4;
+  border-radius: 5px;
+}
+.terceiro {
+  margin: 5px;
+  flex: 1;
+  border-radius: 5px;
+}
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 222, 222);
+  border-radius: 0px 0px 30px 30px;
+}
+.fundo {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 100%;
+  border-radius: 5px 5px 30px 30px;
+  margin: 5px;
+}
+.row-nav {
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  background-color: rgb(222, 222, 222);
+  width: 15%;
+  height: 40px;
+  margin: 5px solid white;
+  margin-top: 50px;
+}
+#primeiro-menu {
+  background-color: rgb(0, 183, 255);
+}
+.row-principal {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: 40px;
+}
+.conteudo-principal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.conteudo-lateral {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.bloco {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(222, 222, 222);
+}
+.comentario {
+  width: 100%;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(222, 222, 222);
+}
+.menu-principal {
+  width: 75%;
+  height: 275px;
+  background-color: rgb(222, 222, 222);
+  margin-top: 0px;
+}
+
+.conteudo-box {
+  background-color: rgb(222, 222, 222);
+  width: 100%;
+  height: 35%;
+}
+.conteudo-linha {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-linha {
+  background-color: rgb(0, 183, 255);
+  width: 24%;
+  height: 30px;
+  margin-top: 40px;
+}
+.linha {
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(222, 222, 222);
+}
+#primeira-linha {
+  margin-top: 30px;
+}

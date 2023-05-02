@@ -1,0 +1,23 @@
+:root {
+  --cor-primaria: #f2668b;
+  --cor-secundaria: #025e73;
+  --cor-terciaria: #011f26;
+}
+
+body{
+  background-color: #011f26;
+}
+header h1{
+  color: #f2668b;
+  text-align: center;
+}
+
+.container{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+}

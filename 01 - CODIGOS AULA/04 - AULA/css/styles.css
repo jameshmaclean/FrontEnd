@@ -1,0 +1,17 @@
+:root{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: red
+}
+
+.btn-primary{
+    border-radius: 100px;
+}
+.navegacao{
+    background-color: black;
+}
+.row-x{
+    flex-direction: row-reverse
+}
